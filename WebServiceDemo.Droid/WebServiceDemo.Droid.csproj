@@ -69,6 +69,12 @@
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebServiceDemo.Service\WebServiceDemo.Service.csproj">
+      <Project>{c290fb78-aeb1-491b-b6cf-232231d411c3}</Project>
+      <Name>WebServiceDemo.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.
